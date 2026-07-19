@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/home.png">
     <title>C8 Website</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Cate</a>
+        <a href="#home" class="logo">Cate</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#" >Projects</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Contact</a>
+        <nav id="navbar">
+            <a href="#home" class="active"> Home</a>
+            <a href="#projects" >Projects</a>
+            <a href="#skills" >Skills</a>
+            <a href="#contact" >Contact</a>
         </nav>
     </header>
-    <section class="home">
+    <section id='home' class="home">
         <div class="home-img">
             <img src="images/home.png" alt="">
         </div>
@@ -31,8 +33,90 @@
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
-            <a href="#" class="btn">View CV</a>
+            
         </div>
     </section>
+
+    <section id='projects' class="projects">
+       <hr class="divider">
+        <div class="projects-content">
+            
+            <h3 class="typing-text">Projects I worked on</h3>
+            
+        </div>
+<!-- ======= AutoCard =================  -->
+
+<!-- ======= Iskort =================  -->
+
+
+<!-- ======= AquaSim =================  -->
+
+<!-- ======= MedyAs =================  -->
+        <div class="project-card">
+
+            <div class="project-images">
+                <img src="images/med1.png" class="card card-1" alt="MedyAs Home">
+                <img src="images/med2.png" class="card card-2" alt="Hospitals Nearby">
+                <img src="images/med3.png" class="card card-3" alt="Profile Screen">
+            </div>
+            <div class="project-title">MedyAs Finder</div>
+            <div class="project-description">
+                <p>
+                    A healthcare appointment and medical records application
+                    designed in Figma. The project focuses on accessibility,
+                    intuitive navigation, and a clean user experience.
+                </p>
+
+                <div class="project-tags">
+                    <span>Figma</span>
+                    <span>UI/UX</span>
+                    <span>Prototype</span>
+                </div>
+
+                <a
+                    href="https://www.figma.com/proto/Ej1gArmNlGBbnb5fUY4uqm/MedyAs?node-id=135-1870&t=mXq5WczB7zl3FlfW-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A891"
+                    class="btn"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    View Prototype
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+        <section id='skills' class="skills">
+       <hr class="divider">
+        <div class="skills-content">
+            
+            <h3 class="typing-text">Skills - Languages - Tools  </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            /*Insert project cards here  */
+        </div>
+    </section>
+
+        </section>
+
+        <section id='contact' class="contact">
+       <hr class="divider">
+        <div class="contact-content">
+            
+            <h3 class="typing-text">Get In Touch</h3>
+            <div class="actions">    
+                <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" class="btn">View CV</a>
+            </div>
+         
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+           
+            
+        </div>
+    </section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
