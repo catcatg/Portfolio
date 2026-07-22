@@ -506,3 +506,9 @@ span {
 .skill-category ol{
 padding-left: 1rem;
 }
+
+
+.contact{
+    min-height: auto;
+    padding: 5rem 9%;
+}
